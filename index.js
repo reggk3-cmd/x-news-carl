@@ -53,7 +53,7 @@ async function run() {
     const prompt = `Aşağıdaki küresel haber başlığını dikkate alarak X (Twitter) için dikkat çekici, kısa, öz, Türkçe bir tweet yaz. Uygun hashtag'ler ekle ve mutlaka haberin linkini (${newsLink}) sona koy.\n\nHaber Başlığı: ${newsTitle}`;
     
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.8-flash',
       contents: prompt,
     });
 
