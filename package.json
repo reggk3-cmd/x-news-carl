@@ -1,0 +1,10 @@
+{
+  "name": "haber-botu",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "rss-parser": "^3.13.0",
+    "xactions": "latest"
+  }
+}
